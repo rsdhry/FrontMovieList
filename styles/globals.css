@@ -14,3 +14,11 @@ a {
 * {
   box-sizing: border-box;
 }
+.myBG{
+  height: 100vh;
+  background: url('../asset/image/firework.png');
+ }
+ .htmlAll{
+  background-color: #f6ddb9;
+ }
+ 
