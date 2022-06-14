@@ -1,6 +1,6 @@
 import { Container, Row,Col,Button } from 'react-bootstrap';
 
-const Intro = () => {
+const Intro = (props) => {
    return(
 
 <div className='intro'>
@@ -10,7 +10,7 @@ const Intro = () => {
                  <div className='title'>Review Film</div>
                  <div className='title'>Kesukaanmu</div>
                  <div className='introButton mt-4 text-center'>
-                     <Button variant='dark'>Lihat Review</Button>
+                     <Button variant='dark' onClick={props.scroll}>Lihat Review</Button>
                  </div>
              </Col>
            </Row>
